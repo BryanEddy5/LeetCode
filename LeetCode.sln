@@ -1,6 +1,12 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode", "LeetCode\LeetCode.csproj", "{4ABB07C1-9B2E-41F9-BCBC-7FF07367A09B}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{62596850-929B-4BA3-9B3F-1C588B2E66B9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{132A82AE-9A35-42E4-8E2A-CBC4CA102325}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Leetcode", "src\Leetcode\Leetcode.csproj", "{2E8A2ED7-A00D-4B01-AB96-05DFE5A41C40}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCodeTests", "test\LeetCodeTests\LeetCodeTests.csproj", "{5D41C8BB-67F6-456C-84B3-71C4FC433285}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -8,9 +14,17 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{4ABB07C1-9B2E-41F9-BCBC-7FF07367A09B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4ABB07C1-9B2E-41F9-BCBC-7FF07367A09B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4ABB07C1-9B2E-41F9-BCBC-7FF07367A09B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4ABB07C1-9B2E-41F9-BCBC-7FF07367A09B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E8A2ED7-A00D-4B01-AB96-05DFE5A41C40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E8A2ED7-A00D-4B01-AB96-05DFE5A41C40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E8A2ED7-A00D-4B01-AB96-05DFE5A41C40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E8A2ED7-A00D-4B01-AB96-05DFE5A41C40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D41C8BB-67F6-456C-84B3-71C4FC433285}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D41C8BB-67F6-456C-84B3-71C4FC433285}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D41C8BB-67F6-456C-84B3-71C4FC433285}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D41C8BB-67F6-456C-84B3-71C4FC433285}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2E8A2ED7-A00D-4B01-AB96-05DFE5A41C40} = {62596850-929B-4BA3-9B3F-1C588B2E66B9}
+		{5D41C8BB-67F6-456C-84B3-71C4FC433285} = {132A82AE-9A35-42E4-8E2A-CBC4CA102325}
 	EndGlobalSection
 EndGlobal
