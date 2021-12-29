@@ -10,7 +10,7 @@ namespace LeetCode.Arrays
             var max = 0;
             var left = 0;
             var right = height.Length - 1;
-            while (left <= right)
+            while (left < right)
             {
                  max = Math.Max(ComputeArea(left, right, height), max);
                 if (height[left] > height[right])

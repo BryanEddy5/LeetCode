@@ -5993,16 +5993,16 @@
     ]
   },
   "packageFolders": {
-    "/Users/eddybrya/.nuget/packages/": {}
+    "/Users/bryaneddy/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/eddybrya/source/repo/LeetCode/test/LeetCodeTests/LeetCodeTests.csproj",
+      "projectUniqueName": "/Users/bryaneddy/source/repo/LeetCode/test/LeetCodeTests/LeetCodeTests.csproj",
       "projectName": "LeetCodeTests",
-      "projectPath": "/Users/eddybrya/source/repo/LeetCode/test/LeetCodeTests/LeetCodeTests.csproj",
-      "packagesPath": "/Users/eddybrya/.nuget/packages/",
-      "outputPath": "/Users/eddybrya/source/repo/LeetCode/test/LeetCodeTests/obj/",
+      "projectPath": "/Users/bryaneddy/source/repo/LeetCode/test/LeetCodeTests/LeetCodeTests.csproj",
+      "packagesPath": "/Users/bryaneddy/.nuget/packages/",
+      "outputPath": "/Users/bryaneddy/source/repo/LeetCode/test/LeetCodeTests/obj/",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "net6.0"
@@ -6011,8 +6011,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "/Users/eddybrya/source/repo/LeetCode/src/Leetcode/Leetcode.csproj": {
-              "projectPath": "/Users/eddybrya/source/repo/LeetCode/src/Leetcode/Leetcode.csproj"
+            "/Users/bryaneddy/source/repo/LeetCode/src/Leetcode/Leetcode.csproj": {
+              "projectPath": "/Users/bryaneddy/source/repo/LeetCode/src/Leetcode/Leetcode.csproj"
             }
           }
         }

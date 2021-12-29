@@ -1,7 +1,7 @@
 using LeetCode.LinkedList;
 using Xunit;
 
-namespace LeetCodeTests;
+namespace LeetCodeTests.LinkedLists;
 
 public class UnitTest1
 {
