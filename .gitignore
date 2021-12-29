@@ -1,1 +1,5 @@
-/LeetCode/bin/Debug/net5.0/
+.idea
+.git
+obj
+bin
+*.sln.DotSettings.user.user
